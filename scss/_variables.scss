@@ -1,0 +1,34 @@
+/* Colores */
+$mainColor: #CEA1B6;
+$fontColor_main: #3A3659;
+$fontColor_secondary: #FFFFFF;
+
+/* Tipografía */
+@font-face {
+    font-family: 'beautique';
+    src: url(../font/beautique-display/BeautiqueDisplay-Bold-BF63fd5fa862a03.otf);
+}
+@font-face {
+    font-family: 'caudex';
+    src: url(../font/caudex/Caudex-Bold.ttf);
+}
+
+$mainFont: 'beautique';
+$secondaryFont:'caudex';
+
+/* Clases generales */
+.flexrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexrow_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

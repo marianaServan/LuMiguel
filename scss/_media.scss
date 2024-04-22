@@ -1,0 +1,43 @@
+@import 'variables';
+
+@media screen and (max-width: 910px) {
+    .logo_nav{
+        width: 15%;
+        img{
+            width: 100%;
+        }
+    }   
+    .burguer{
+        width: 30%;
+    }    
+    .link_header {
+        align-items: start;
+    }
+    .logo_footer {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo_nav{
+        width: 30%;
+    }   
+    .burguer{
+        width: 40%;
+    }    
+    footer{
+        div {
+            flex-direction: column;
+            ul {
+                li {
+                    svg{
+                        width: 50px;
+                    }
+                } 
+            }
+       }
+    }
+    .logo_footer {
+        width: 70%;
+    }
+}

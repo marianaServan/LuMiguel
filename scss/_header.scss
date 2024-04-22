@@ -1,0 +1,65 @@
+@import 'variables';
+
+.logo_nav{
+    img{
+        width: 10%;
+    }
+}
+
+.bg_header{
+    background-color: $mainColor ;
+}
+
+.burguer{
+    background-color: transparent;
+    border-style: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+.link_header {
+    align-items: center;
+    li a{
+        color: $fontColor_secondary;
+        font-family: $mainFont;
+        &:hover {
+            color: $fontColor_main;
+        }
+    }
+    .link_active{
+        font-size: larger;
+    }
+    
+}
+
+.color_icon {
+    color: $fontColor_secondary;
+}
+
+.cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+
+.cover_home {
+    background-image: url(../images/portada_home.jpg);
+    @extend .cover;
+}
+
+.cover_formaciones {
+    background-image: url(../images/portada_formaciones.jpg);
+    @extend .cover;
+    background-position-x: right;
+}
+
+.cover_membresia {
+    background-image: url(../images/portada_membresia.jpg);
+    @extend .cover;
+}
+
+.cover_retiros {
+    background-image: url(../images/portada_retiros.jpg);
+    @extend .cover;
+}

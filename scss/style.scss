@@ -1,0 +1,12 @@
+@use 'header';
+@use 'footer';
+@use 'media';
+@use 'main';
+@import 'variables';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $secondaryFont;
+    color: $fontColor_main;
+}

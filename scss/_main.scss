@@ -1,0 +1,9 @@
+@import 'variables';
+
+.main_section {
+    @extend .flexrow;
+}
+
+.img_mainHome {
+    width: 30%;
+}
