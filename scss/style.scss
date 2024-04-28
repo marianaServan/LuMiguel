@@ -1,7 +1,7 @@
 @use 'header';
 @use 'footer';
-@use 'media';
 @use 'main';
+@use 'media';
 @import 'variables';
 
 *{
@@ -9,4 +9,13 @@
     margin: 0;
     font-family: $secondaryFont;
     color: $fontColor_main;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(305deg, #FFFFFF 0%, #f4cecb 85%); 
+    text-align: justify;
+    h1, h2, h3 {
+        text-align: center;
+    }
 }

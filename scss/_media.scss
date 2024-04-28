@@ -40,4 +40,38 @@
     .logo_footer {
         width: 70%;
     }
+    .main_section {
+        flex-direction: column;
+        h3 {
+            text-align: center;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            p {
+                width: 95%;
+            }
+        }      
+    }
+    .img_mainHome, .img_logoHome {
+        width: 90%;
+    }
+    .presentacion_membresia {
+        width: 80%;
+    }
+    .equipo_membresia, .formaciones {
+        flex-direction: column;
+        div {
+            width: 95%;
+        }
+    }
+    .grilla_retiros {
+        flex-direction: column;
+        img {
+            width: 90%;
+        }
+    }
 }

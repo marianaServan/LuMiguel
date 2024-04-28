@@ -1,9 +1,83 @@
 @import 'variables';
 
+/* Home */
+
+main{
+    @extend .flexcolumn;
+    margin: 20px 0 20px 0;
+}
+
 .main_section {
     @extend .flexrow;
+    margin: 10px;
+    p, div {
+        width: 80%;
+    }
+    h1, h3 {
+        text-align: left;
+    }
+}
+
+.img_logoHome {
+    width: 30%;
+    margin: 10px;
 }
 
 .img_mainHome {
-    width: 30%;
+    width: 70%;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.3);
+}
+
+
+/* Membresia */
+
+.presentacion_membresia {
+    width: 90%
+}
+
+.equipo_membresia {
+    @extend .flexrow;
+    div {
+        @extend .flexcolumn;
+        margin: 20px;
+        width: 30%;
+        img, p {
+            width: 80%;
+        }
+
+    }
+
+}
+
+.formaciones {
+    @extend .equipo_membresia;
+    h2 {
+        margin: 20px 0;
+    }
+}
+
+.button_SaberMas {
+    @extend .flexcolumn;
+    /* width: 50%; */
+    text-decoration: none;
+    button {
+        background-color: $mainColor;
+        color: white;
+        border-radius: 40px;
+        padding: 10px 40px;
+        border-color: transparent;
+    }
+}
+
+/* Retiros */
+
+.grilla_retiros {
+    margin: 40px;
+    @extend .flexrow;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    img {
+        width: 30%;
+    }
 }
